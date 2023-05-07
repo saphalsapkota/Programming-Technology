@@ -1,0 +1,53 @@
+1. What is IDE? What are the advantage of IDE?
+ans: An integrated development environment (IDE) or interactive development environment is
+a software application that provides comprehensive facilities to computerprogrammers for software development. An IDE normally consists of a source codeeditor; build automation tools and a debugger. Several modern IDEs integrate with Intellisense coding features.Some examples of IDEs are: Microsoft Visual Studio, Eclipse, NetBeans, Delphi, JBuilder,Borland C++ Builders, FrontPage, Dreamweaver etc.
+Advantage:
+1. Auto compiles and runs code.
+2. Provide syntax highlighting.
+3. Auto code complition.
+4. Auto compiles and runs code.
+5. provide folder structure for the project.
+
+2. What are the advantage of visual studio IDE?
+ans: The advantage of visual studio IDE are: 
+1. Cross-platform support.
+2. light weight.
+3. support multiple programming language.
+4. free of cosr.
+
+Advantage of NetBeans IDE:
+1. Flexible user interface.
+2. Window management.
+3. Extensible file system implementation.
+4. Free and open source.
+5. Active developer community.
+
+
+3. What are different access specifiers in Java? What are its implication when it is used before:
+a. Class
+b. Method
+c. Variables
+
+Ans:The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class. We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.
+
+There are four types of Java access specifier:
+
+Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
+
+Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
+
+Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
+
+Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
+
+Let us see which all members of Java can be assigned with the access modifiers:
+
+Members of JAVA	Private	Default	Protected	Public
+Class             No	      Yes  	        No	      Yes
+Variable	       Yes        Yes           Yes       Yes
+Method	      Yes         Yes            Yes      Yes
+
+
+
+
+
