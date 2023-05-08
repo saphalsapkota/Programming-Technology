@@ -21,33 +21,3 @@ Advantage of NetBeans IDE:
 3. Extensible file system implementation.
 4. Free and open source.
 5. Active developer community.
-
-
-3. What are different access specifiers in Java? What are its implication when it is used before:
-a. Class
-b. Method
-c. Variables
-
-Ans:The access modifiers in Java specifies the accessibility or scope of a field, method, constructor, or class. We can change the access level of fields, constructors, methods, and class by applying the access modifier on it.
-
-There are four types of Java access specifier:
-
-Private: The access level of a private modifier is only within the class. It cannot be accessed from outside the class.
-
-Default: The access level of a default modifier is only within the package. It cannot be accessed from outside the package. If you do not specify any access level, it will be the default.
-
-Protected: The access level of a protected modifier is within the package and outside the package through child class. If you do not make the child class, it cannot be accessed from outside the package.
-
-Public: The access level of a public modifier is everywhere. It can be accessed from within the class, outside the class, within the package and outside the package.
-
-Let us see which all members of Java can be assigned with the access modifiers:
-
-Members of JAVA	Private	Default	Protected	Public
-Class             No	      Yes  	        No	      Yes
-Variable	       Yes        Yes           Yes       Yes
-Method	      Yes         Yes            Yes      Yes
-
-
-
-
-
